@@ -14,6 +14,11 @@
 			<CommandName>Form.Command.ОбменWNS</CommandName>
 			<ExtendedTooltip name="ОбменWNSРасширеннаяПодсказка" id="4"/>
 		</Button>
+		<Button name="ПодготовитьКлючевуюОперацию" id="5">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ПодготовитьКлючевуюОперацию</CommandName>
+			<ExtendedTooltip name="ПодготовитьКлючевуюОперациюРасширеннаяПодсказка" id="6"/>
+		</Button>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -53,6 +58,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ОбменWNS</Action>
+		</Command>
+		<Command name="ПодготовитьКлючевуюОперацию" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подготовить ключевую операцию</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подготовить ключевую операцию</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПодготовитьКлючевуюОперацию</Action>
 		</Command>
 	</Commands>
 </Form>
