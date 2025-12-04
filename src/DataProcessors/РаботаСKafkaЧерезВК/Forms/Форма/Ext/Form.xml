@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<ChildItems>
+		<CheckBoxField name="булДанныеПоданыВBase64" id="3">
+			<DataPath>Объект.булДанныеПоданыВBase64</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="булДанныеПоданыВBase64КонтекстноеМеню" id="4"/>
+			<ExtendedTooltip name="булДанныеПоданыВBase64РасширеннаяПодсказка" id="5"/>
+		</CheckBoxField>
+		<UsualGroup name="Группа1" id="76">
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="77"/>
+			<ChildItems>
+				<Button name="Отправить" id="8">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Отправить</CommandName>
+					<ExtendedTooltip name="ОтправитьРасширеннаяПодсказка" id="9"/>
+				</Button>
+				<Button name="ОтправитьСллбщение" id="10">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ОтправитьСллбщение</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отправить сообщение</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ОтправитьСллбщениеРасширеннаяПодсказка" id="11"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа2" id="78">
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="79"/>
+			<ChildItems>
+				<Button name="ЗагрузитьМарки" id="80">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗагрузитьМарки</CommandName>
+					<ExtendedTooltip name="ЗагрузитьМаркиРасширеннаяПодсказка" id="81"/>
+				</Button>
+				<Button name="ЗагрузитьНоменклатуру" id="82">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗагрузитьНоменклатуру</CommandName>
+					<ExtendedTooltip name="ЗагрузитьНоменклатуруРасширеннаяПодсказка" id="83"/>
+				</Button>
+				<Button name="Прочитать" id="12">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Прочитать</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Прочитать тест</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ПрочитатьРасширеннаяПодсказка" id="13"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="тзТопикиРазделы_Чтение" id="51">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.тзТопикиРазделы_Чтение</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="тзТопикиРазделы_ЧтениеКонтекстноеМеню" id="52"/>
+			<AutoCommandBar name="тзТопикиРазделы_ЧтениеКоманднаяПанель" id="53">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="тзТопикиРазделы_ЧтениеРасширеннаяПодсказка" id="54"/>
+			<SearchStringAddition name="тзТопикиРазделы_ЧтениеСтрокаПоиска" id="55">
+				<Enabled>false</Enabled>
+				<AdditionSource>
+					<Item>тзТопикиРазделы_Чтение</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="тзТопикиРазделы_ЧтениеСтрокаПоискаКонтекстноеМеню" id="56"/>
+				<ExtendedTooltip name="тзТопикиРазделы_ЧтениеСтрокаПоискаРасширеннаяПодсказка" id="57"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="тзТопикиРазделы_ЧтениеСостояниеПросмотра" id="58">
+				<AdditionSource>
+					<Item>тзТопикиРазделы_Чтение</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="тзТопикиРазделы_ЧтениеСостояниеПросмотраКонтекстноеМеню" id="59"/>
+				<ExtendedTooltip name="тзТопикиРазделы_ЧтениеСостояниеПросмотраРасширеннаяПодсказка" id="60"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="тзТопикиРазделы_ЧтениеУправлениеПоиском" id="61">
+				<AdditionSource>
+					<Item>тзТопикиРазделы_Чтение</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="тзТопикиРазделы_ЧтениеУправлениеПоискомКонтекстноеМеню" id="62"/>
+				<ExtendedTooltip name="тзТопикиРазделы_ЧтениеУправлениеПоискомРасширеннаяПодсказка" id="63"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="тзТопикиРазделы_ЧтениеНомерСтроки" id="64">
+					<DataPath>Объект.тзТопикиРазделы_Чтение.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="тзТопикиРазделы_ЧтениеНомерСтрокиКонтекстноеМеню" id="65"/>
+					<ExtendedTooltip name="тзТопикиРазделы_ЧтениеНомерСтрокиРасширеннаяПодсказка" id="66"/>
+				</LabelField>
+				<InputField name="тзТопикиРазделы_ЧтениеTopic" id="67">
+					<DataPath>Объект.тзТопикиРазделы_Чтение.Topic</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="тзТопикиРазделы_ЧтениеTopicКонтекстноеМеню" id="68"/>
+					<ExtendedTooltip name="тзТопикиРазделы_ЧтениеTopicРасширеннаяПодсказка" id="69"/>
+				</InputField>
+				<InputField name="тзТопикиРазделы_ЧтениеPartition" id="70">
+					<DataPath>Объект.тзТопикиРазделы_Чтение.Partition</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="тзТопикиРазделы_ЧтениеPartitionКонтекстноеМеню" id="71"/>
+					<ExtendedTooltip name="тзТопикиРазделы_ЧтениеPartitionРасширеннаяПодсказка" id="72"/>
+				</InputField>
+				<InputField name="тзТопикиРазделы_ЧтениеOffset" id="73">
+					<DataPath>Объект.тзТопикиРазделы_Чтение.Offset</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="тзТопикиРазделы_ЧтениеOffsetКонтекстноеМеню" id="74"/>
+					<ExtendedTooltip name="тзТопикиРазделы_ЧтениеOffsetРасширеннаяПодсказка" id="75"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<Table name="тзДанные_Чтение" id="14">
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.тзДанные_Чтение</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="тзДанные_ЧтениеКонтекстноеМеню" id="15"/>
+			<AutoCommandBar name="тзДанные_ЧтениеКоманднаяПанель" id="16">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="тзДанные_ЧтениеРасширеннаяПодсказка" id="17"/>
+			<SearchStringAddition name="тзДанные_ЧтениеСтрокаПоиска" id="18">
+				<Enabled>false</Enabled>
+				<AdditionSource>
+					<Item>тзДанные_Чтение</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="тзДанные_ЧтениеСтрокаПоискаКонтекстноеМеню" id="19"/>
+				<ExtendedTooltip name="тзДанные_ЧтениеСтрокаПоискаРасширеннаяПодсказка" id="20"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="тзДанные_ЧтениеСостояниеПросмотра" id="21">
+				<AdditionSource>
+					<Item>тзДанные_Чтение</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="тзДанные_ЧтениеСостояниеПросмотраКонтекстноеМеню" id="22"/>
+				<ExtendedTooltip name="тзДанные_ЧтениеСостояниеПросмотраРасширеннаяПодсказка" id="23"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="тзДанные_ЧтениеУправлениеПоиском" id="24">
+				<AdditionSource>
+					<Item>тзДанные_Чтение</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="тзДанные_ЧтениеУправлениеПоискомКонтекстноеМеню" id="25"/>
+				<ExtendedTooltip name="тзДанные_ЧтениеУправлениеПоискомРасширеннаяПодсказка" id="26"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="тзДанные_ЧтениеНомерСтроки" id="27">
+					<DataPath>Объект.тзДанные_Чтение.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="тзДанные_ЧтениеНомерСтрокиКонтекстноеМеню" id="28"/>
+					<ExtendedTooltip name="тзДанные_ЧтениеНомерСтрокиРасширеннаяПодсказка" id="29"/>
+				</LabelField>
+				<InputField name="тзДанные_Чтениеkey" id="30">
+					<DataPath>Объект.тзДанные_Чтение.key</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="тзДанные_ЧтениеkeyКонтекстноеМеню" id="31"/>
+					<ExtendedTooltip name="тзДанные_ЧтениеkeyРасширеннаяПодсказка" id="32"/>
+				</InputField>
+				<InputField name="тзДанные_Чтениеvalue" id="33">
+					<DataPath>Объект.тзДанные_Чтение.value</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="тзДанные_ЧтениеvalueКонтекстноеМеню" id="34"/>
+					<ExtendedTooltip name="тзДанные_ЧтениеvalueРасширеннаяПодсказка" id="35"/>
+				</InputField>
+				<InputField name="тзДанные_Чтениеtopic" id="36">
+					<DataPath>Объект.тзДанные_Чтение.topic</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="тзДанные_ЧтениеtopicКонтекстноеМеню" id="37"/>
+					<ExtendedTooltip name="тзДанные_ЧтениеtopicРасширеннаяПодсказка" id="38"/>
+				</InputField>
+				<InputField name="тзДанные_Чтениеpartition" id="39">
+					<DataPath>Объект.тзДанные_Чтение.partition</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="тзДанные_ЧтениеpartitionКонтекстноеМеню" id="40"/>
+					<ExtendedTooltip name="тзДанные_ЧтениеpartitionРасширеннаяПодсказка" id="41"/>
+				</InputField>
+				<InputField name="тзДанные_Чтениеoffset" id="42">
+					<DataPath>Объект.тзДанные_Чтение.offset</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="тзДанные_ЧтениеoffsetКонтекстноеМеню" id="43"/>
+					<ExtendedTooltip name="тзДанные_ЧтениеoffsetРасширеннаяПодсказка" id="44"/>
+				</InputField>
+				<InputField name="тзДанные_Чтениеtimestamp" id="45">
+					<DataPath>Объект.тзДанные_Чтение.timestamp</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="тзДанные_ЧтениеtimestampКонтекстноеМеню" id="46"/>
+					<ExtendedTooltip name="тзДанные_ЧтениеtimestampРасширеннаяПодсказка" id="47"/>
+				</InputField>
+				<InputField name="тзДанные_Чтениеheaders" id="48">
+					<DataPath>Объект.тзДанные_Чтение.headers</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="тзДанные_ЧтениеheadersКонтекстноеМеню" id="49"/>
+					<ExtendedTooltip name="тзДанные_ЧтениеheadersРасширеннаяПодсказка" id="50"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.РаботаСKafkaЧерезВК</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Отправить" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить демо</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Отправить</Action>
+		</Command>
+		<Command name="ОтправитьСллбщение" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить сллбщение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отправить сллбщение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОтправитьСллбщение</Action>
+		</Command>
+		<Command name="Прочитать" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прочитать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Прочитать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Прочитать</Action>
+		</Command>
+		<Command name="ЗагрузитьМарки" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить марки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить марки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьМарки</Action>
+		</Command>
+		<Command name="ЗагрузитьНоменклатуру" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить номенклатуру</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить номенклатуру</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьНоменклатуру</Action>
+		</Command>
+	</Commands>
+</Form>
