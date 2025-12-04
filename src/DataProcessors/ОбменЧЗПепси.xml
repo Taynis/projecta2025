@@ -1,34 +1,32 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<DataProcessor uuid="e37bc45e-37dd-42ff-8e76-61f6432183ff">
+	<DataProcessor uuid="c3f7fcb8-cd2b-47c3-8dd3-8275852ebac2">
 		<InternalInfo>
-			<xr:GeneratedType name="DataProcessorObject.ОбменWMS" category="Object">
-				<xr:TypeId>aa98cbbe-426a-4400-b9e3-2c7ffaa4477c</xr:TypeId>
-				<xr:ValueId>318098ea-f42e-4ec1-9f5b-3b0be0528cb0</xr:ValueId>
+			<xr:GeneratedType name="DataProcessorObject.ОбменЧЗПепси" category="Object">
+				<xr:TypeId>d8ee622d-911f-4946-b8a7-1f8e552f168f</xr:TypeId>
+				<xr:ValueId>9ba608d3-b79a-4270-b466-d10864327a3d</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DataProcessorManager.ОбменWMS" category="Manager">
-				<xr:TypeId>6a873b81-6dac-4ab7-84c9-bd95078f8ef8</xr:TypeId>
-				<xr:ValueId>3ce27aab-0c7b-47a0-861e-228ec3ab3d4e</xr:ValueId>
+			<xr:GeneratedType name="DataProcessorManager.ОбменЧЗПепси" category="Manager">
+				<xr:TypeId>cd8f40d2-b18f-4ec4-a66f-922aae34d23e</xr:TypeId>
+				<xr:ValueId>7475f270-25d0-48a0-8738-044e7b3ae279</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ОбменWMS</Name>
+			<Name>ОбменЧЗПепси</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Обмен WMS (эмуляция')</v8:content>
+					<v8:content>Обмен ЧЗ, Пепси (Эмуляцция)</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<UseStandardCommands>true</UseStandardCommands>
-			<DefaultForm>DataProcessor.ОбменWMS.Form.Форма</DefaultForm>
+			<DefaultForm/>
 			<AuxiliaryForm/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<ExtendedPresentation/>
 			<Explanation/>
 		</Properties>
-		<ChildObjects>
-			<Form>Форма</Form>
-		</ChildObjects>
+		<ChildObjects/>
 	</DataProcessor>
 </MetaDataObject>

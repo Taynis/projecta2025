@@ -2,37 +2,37 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
 	<InformationRegister uuid="832db5a3-ee85-4ae1-be48-1777c4563833">
 		<InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.НВД_Статусы_КИ_ЧЗ" category="Record">
+			<xr:GeneratedType name="InformationRegisterRecord.Статусы_КИ_ЧЗ" category="Record">
 				<xr:TypeId>a0388c71-a274-48a5-a18f-8756b8192a32</xr:TypeId>
 				<xr:ValueId>04a4d14e-ab17-40b8-86ed-31162faa5e50</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.НВД_Статусы_КИ_ЧЗ" category="Manager">
+			<xr:GeneratedType name="InformationRegisterManager.Статусы_КИ_ЧЗ" category="Manager">
 				<xr:TypeId>602b3560-9a30-4a33-ac06-c43a9aa81b48</xr:TypeId>
 				<xr:ValueId>6e2a7e4a-940c-42d7-b445-1c1a498712bf</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.НВД_Статусы_КИ_ЧЗ" category="Selection">
+			<xr:GeneratedType name="InformationRegisterSelection.Статусы_КИ_ЧЗ" category="Selection">
 				<xr:TypeId>00c73f39-2949-4d9f-a1cf-3dc92938509c</xr:TypeId>
 				<xr:ValueId>7a18e315-9a27-43e8-876f-4ed8d2a8a102</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.НВД_Статусы_КИ_ЧЗ" category="List">
+			<xr:GeneratedType name="InformationRegisterList.Статусы_КИ_ЧЗ" category="List">
 				<xr:TypeId>cf82d51a-b1c4-4749-b75f-d78aaf7ea2e8</xr:TypeId>
 				<xr:ValueId>0f18f742-43ed-4f36-9ebc-08ae0df81e94</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.НВД_Статусы_КИ_ЧЗ" category="RecordSet">
+			<xr:GeneratedType name="InformationRegisterRecordSet.Статусы_КИ_ЧЗ" category="RecordSet">
 				<xr:TypeId>4246ea58-fa18-4d62-a18c-81c1acc08526</xr:TypeId>
 				<xr:ValueId>2c62486a-5911-44bb-b2d8-5a3bf8155b11</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.НВД_Статусы_КИ_ЧЗ" category="RecordKey">
+			<xr:GeneratedType name="InformationRegisterRecordKey.Статусы_КИ_ЧЗ" category="RecordKey">
 				<xr:TypeId>adc979cd-c001-45f3-b2a9-ee8ce1a7018a</xr:TypeId>
 				<xr:ValueId>4c69ed24-fe96-4d71-8635-bb3ba0544914</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.НВД_Статусы_КИ_ЧЗ" category="RecordManager">
+			<xr:GeneratedType name="InformationRegisterRecordManager.Статусы_КИ_ЧЗ" category="RecordManager">
 				<xr:TypeId>5d9dd9b1-dae0-4ed7-b10e-05a159b39d3c</xr:TypeId>
 				<xr:ValueId>149e9dea-99b2-4913-a8d9-b5fe1470c40e</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>НВД_Статусы_КИ_ЧЗ</Name>
+			<Name>Статусы_КИ_ЧЗ</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -43,7 +43,7 @@
 			<UseStandardCommands>true</UseStandardCommands>
 			<EditType>InDialog</EditType>
 			<DefaultRecordForm/>
-			<DefaultListForm>InformationRegister.НВД_Статусы_КИ_ЧЗ.Form.ФормаСписка</DefaultListForm>
+			<DefaultListForm>InformationRegister.Статусы_КИ_ЧЗ.Form.ФормаСписка</DefaultListForm>
 			<AuxiliaryRecordForm/>
 			<AuxiliaryListForm/>
 			<StandardAttributes>
@@ -213,45 +213,6 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Resource>
-			<Resource uuid="db076b10-f1bc-45e6-8fc1-b5f358bc563a">
-				<Properties>
-					<Name>ЛогистическийСтатус3PL</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Лог.статус 3PL</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>cfg:CatalogRef.НВД_ЛогистическиеСтатусы3PL</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Resource>
 			<Resource uuid="902cd494-9e88-4dd9-8846-168e31c7bf60">
 				<Properties>
 					<Name>СтатусКодовМаркировкиИСМП</Name>
@@ -346,49 +307,6 @@
 					<Comment/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="326e7191-41ea-48c5-a4e8-4fcf4e1eab7d">
-				<Properties>
-					<Name>ИДДокументПрихода</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ИДДокумент прихода</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>200</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

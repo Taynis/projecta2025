@@ -3170,7 +3170,6 @@
 			<Catalog>СерииНоменклатуры</Catalog>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>Контрагенты</Catalog>
-			<Catalog>НВД_ЛогистическиеСтатусы3PL</Catalog>
 			<Catalog>ШтрихкодыУпаковокТоваров</Catalog>
 			<Document>_ДемоЗаказПокупателя</Document>
 			<Document>_ДемоКорректировкаОстатковТоваровВМестахХранения</Document>
@@ -3536,6 +3535,7 @@
 			<DataProcessor>УстановкаОбновлений</DataProcessor>
 			<DataProcessor>ФайлыБТС</DataProcessor>
 			<DataProcessor>РаботаСKafkaЧерезВК</DataProcessor>
+			<DataProcessor>ОбменЧЗПепси</DataProcessor>
 			<InformationRegister>_ДемоГрафикиРаботы</InformationRegister>
 			<InformationRegister>_ДемоЗаведующиеМестамиХранения</InformationRegister>
 			<InformationRegister>_ДемоЗагружаемыеПоступленияОтЮридическихЛиц</InformationRegister>
@@ -3795,7 +3795,7 @@
 			<InformationRegister>УдалитьСводныеПриложенияПорядокВыгрузкиОбъектов</InformationRegister>
 			<InformationRegister>УдалитьСводныеПриложенияСостояниеВыгрузки</InformationRegister>
 			<InformationRegister>УдалитьХранимыеФайлыВерсий</InformationRegister>
-			<InformationRegister>НВД_Статусы_КИ_ЧЗ</InformationRegister>
+			<InformationRegister>Статусы_КИ_ЧЗ</InformationRegister>
 			<AccumulationRegister>_ДемоОборотыПоСчетамНаОплату</AccumulationRegister>
 			<AccumulationRegister>_ДемоОстаткиТоваровВМестахХранения</AccumulationRegister>
 			<ChartOfCharacteristicTypes>_ДемоВидыСубконто</ChartOfCharacteristicTypes>

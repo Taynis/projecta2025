@@ -97,7 +97,7 @@
 					<ExtendedTooltip name="СтатусКодовМаркировкиИСМПРасширеннаяПодсказка" id="30"/>
 				</LabelField>
 				<LabelField name="ЛогистическийСтатус3PL" id="43">
-					<DataPath>Список.ЛогистическийСтатус3PL</DataPath>
+					<DataPath>~Список.ЛогистическийСтатус3PL</DataPath>
 					<ContextMenu name="ЛогистическийСтатус3PLКонтекстноеМеню" id="44"/>
 					<ExtendedTooltip name="ЛогистическийСтатус3PLРасширеннаяПодсказка" id="45"/>
 				</LabelField>
@@ -133,7 +133,7 @@
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>false</ManualQuery>
 				<DynamicDataRead>true</DynamicDataRead>
-				<MainTable>InformationRegister.НВД_Статусы_КИ_ЧЗ</MainTable>
+				<MainTable>InformationRegister.Статусы_КИ_ЧЗ</MainTable>
 				<ListSettings>
 					<dcsset:filter>
 						<dcsset:viewMode>Normal</dcsset:viewMode>
