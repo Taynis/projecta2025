@@ -28,6 +28,75 @@
 			<Explanation/>
 		</Properties>
 		<ChildObjects>
+			<TabularSection uuid="e8dd71a1-6e1a-41e9-b42a-99788da88e79">
+				<InternalInfo>
+					<xr:GeneratedType name="DataProcessorTabularSection.ОбменWMS.ТаблицаДокументов" category="TabularSection">
+						<xr:TypeId>8eae2872-1533-4215-8705-584177ec21e0</xr:TypeId>
+						<xr:ValueId>235c0578-f9c3-49d9-8b38-3ace583da1ec</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DataProcessorTabularSectionRow.ОбменWMS.ТаблицаДокументов" category="TabularSectionRow">
+						<xr:TypeId>802d520b-57e6-4e10-ac49-65b926ad20e7</xr:TypeId>
+						<xr:ValueId>f1f2b2de-ce1a-477c-8d5e-630e1a9e6683</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ТаблицаДокументов</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Таблица документов</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<ToolTip/>
+					<FillChecking>DontCheck</FillChecking>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="a21dea14-51d9-4773-8712-3d810678da2f">
+						<Properties>
+							<Name>Док</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Док</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:DocumentRef.ПриходныйОрдер</v8:Type>
+								<v8:Type>cfg:DocumentRef.Списание</v8:Type>
+								<v8:Type>cfg:DocumentRef.РасходныйОрдер</v8:Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>10</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillFromFillingValue>false</FillFromFillingValue>
+							<FillValue xsi:type="xs:string"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
 			<Form>Форма</Form>
 		</ChildObjects>
 	</DataProcessor>

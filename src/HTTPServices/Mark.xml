@@ -44,6 +44,35 @@
 					</Method>
 				</ChildObjects>
 			</URLTemplate>
+			<URLTemplate uuid="65a3cd45-db3d-4650-ab11-0a450ed89ca1">
+				<Properties>
+					<Name>ЗагрузитьМарки</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Загрузить марки</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Template>/putMark/</Template>
+				</Properties>
+				<ChildObjects>
+					<Method uuid="7abe7da5-43e9-4d20-a47a-9be7edce69ff">
+						<Properties>
+							<Name>Get</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Get</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<HTTPMethod>GET</HTTPMethod>
+							<Handler>ЗагрузитьМаркиGet</Handler>
+						</Properties>
+					</Method>
+				</ChildObjects>
+			</URLTemplate>
 		</ChildObjects>
 	</HTTPService>
 </MetaDataObject>
