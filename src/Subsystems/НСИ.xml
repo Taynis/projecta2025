@@ -19,6 +19,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Номенклатура</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СерииНоменклатуры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.НаименованиеВКафке</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.УпаковкиЕдиницыИзмерения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ШтрихкодыУпаковокТоваров</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

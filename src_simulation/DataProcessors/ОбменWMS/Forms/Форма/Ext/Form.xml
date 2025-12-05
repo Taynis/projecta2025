@@ -7,7 +7,18 @@
 		<Button name="ВыгрузкаНоменклатуры" id="1">
 			<Type>UsualButton</Type>
 			<CommandName>Form.Command.ВыгрузкаНоменклатуры</CommandName>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Генерация и выгрузка номенклатуры</v8:content>
+				</v8:item>
+			</Title>
 			<ExtendedTooltip name="ВыгрузкаНоменклатурыРасширеннаяПодсказка" id="2"/>
+		</Button>
+		<Button name="ВыгрузкаВсейНоменклатуры" id="7">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ВыгрузкаВсейНоменклатуры</CommandName>
+			<ExtendedTooltip name="ВыгрузкаВсейНоменклатурыРасширеннаяПодсказка" id="8"/>
 		</Button>
 		<Button name="ОбменWNS" id="3">
 			<Type>UsualButton</Type>
@@ -73,6 +84,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ПодготовитьКлючевуюОперацию</Action>
+		</Command>
+		<Command name="ВыгрузкаВсейНоменклатуры" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузка всей номенклатуры</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузка всей номенклатуры</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыгрзкаВсейНоменклатуры</Action>
 		</Command>
 	</Commands>
 </Form>
