@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Генератора сценариев Gherkin</v8:content>
+		</v8:item>
+	</Title>
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<Customizable>false</Customizable>
+	<CommandBarLocation>None</CommandBarLocation>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="ChoiceProcessing">ОбработкаВыбора</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаОбщиеПараметры" id="61">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Параметры
+</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>StrongSeparation</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+			<ExtendedTooltip name="ГруппаОбщиеПараметрыРасширеннаяПодсказка" id="62"/>
+			<ChildItems>
+				<InputField name="ТипОбъекта" id="30">
+					<DataPath>ТипОбъекта</DataPath>
+					<ListChoiceMode>true</ListChoiceMode>
+					<ContextMenu name="ТипОбъектаКонтекстноеМеню" id="31"/>
+					<ExtendedTooltip name="ТипОбъектаРасширеннаяПодсказка" id="32"/>
+					<Events>
+						<Event name="OnChange">ТипОбъектаПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ИмяИсточникаДанных" id="67">
+					<DataPath>ИмяИсточникаДанных</DataPath>
+					<ContextMenu name="ИмяИсточникаДанныхКонтекстноеМеню" id="69"/>
+					<ExtendedTooltip name="ИмяИсточникаДанныхРасширеннаяПодсказка" id="38"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаДанные" id="63">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Данные</v8:content>
+				</v8:item>
+			</Title>
+			<Behavior>Usual</Behavior>
+			<Representation>StrongSeparation</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+			<ExtendedTooltip name="ГруппаДанныеРасширеннаяПодсказка" id="64"/>
+			<ChildItems>
+				<Pages name="ГруппаТипыГенераторов" id="24">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа2</v8:content>
+						</v8:item>
+					</Title>
+					<PagesRepresentation>None</PagesRepresentation>
+					<CurrentRowUse>DontUse</CurrentRowUse>
+					<ExtendedTooltip name="ГруппаТипыГенераторовРасширеннаяПодсказка" id="25"/>
+					<ChildItems>
+						<Page name="ГруппаНачальная" id="33">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Начальная
+</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ГруппаНачальнаяРасширеннаяПодсказка" id="34"/>
+							<ChildItems>
+								<LabelDecoration name="Декорация1" id="35">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<AutoMaxHeight>false</AutoMaxHeight>
+									<TextColor>style:BorderColor</TextColor>
+									<Font faceName="" height="12" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Выберите тип объекта</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="Декорация1КонтекстноеМеню" id="36"/>
+									<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="37"/>
+								</LabelDecoration>
+							</ChildItems>
+						</Page>
+						<Page name="ГруппаСсылочныйОбъект" id="26">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Объект
+</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ГруппаСсылочныйОбъектРасширеннаяПодсказка" id="27"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаСсылка" id="19">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа ссылка</v8:content>
+										</v8:item>
+									</Title>
+									<Behavior>Usual</Behavior>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<CurrentRowUse>DontUse</CurrentRowUse>
+									<ExtendedTooltip name="ГруппаСсылкаРасширеннаяПодсказка" id="20"/>
+									<ChildItems>
+										<InputField name="СсылкаНаОбъект" id="15">
+											<DataPath>СсылкаНаОбъект</DataPath>
+											<ContextMenu name="СсылкаНаОбъектКонтекстноеМеню" id="39"/>
+											<ExtendedTooltip name="СсылкаНаОбъектРасширеннаяПодсказка" id="68"/>
+											<Events>
+												<Event name="OnChange">СсылкаНаОбъектПриИзменении</Event>
+											</Events>
+										</InputField>
+										<InputField name="УникальныйИдентификаторСсылки" id="21">
+											<DataPath>УникальныйИдентификаторСсылки</DataPath>
+											<ReadOnly>true</ReadOnly>
+											<ContextMenu name="УникальныйИдентификаторСсылкиКонтекстноеМеню" id="22"/>
+											<ExtendedTooltip name="УникальныйИдентификаторСсылкиРасширеннаяПодсказка" id="23"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+								<CheckBoxField name="ИсключатьНомерДату" id="18">
+									<DataPath>ИсключатьНомерДату</DataPath>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ИсключатьНомерДатуКонтекстноеМеню" id="17"/>
+									<ExtendedTooltip name="ИсключатьНомерДатуРасширеннаяПодсказка" id="9"/>
+								</CheckBoxField>
+							</ChildItems>
+						</Page>
+						<Page name="ГруппаРегистры" id="28">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Регистры</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ГруппаРегистрыРасширеннаяПодсказка" id="29"/>
+							<ChildItems>
+								<Table name="ВыбранныеЗаписиРегистра" id="40">
+									<Representation>List</Representation>
+									<Header>false</Header>
+									<FileDragMode>AsFile</FileDragMode>
+									<DataPath>ВыбранныеЗаписиРегистра</DataPath>
+									<CommandSet>
+										<ExcludedCommand>Copy</ExcludedCommand>
+									</CommandSet>
+									<SearchStringLocation>None</SearchStringLocation>
+									<SearchControlLocation>None</SearchControlLocation>
+									<ContextMenu name="ВыбранныеЗаписиРегистраКонтекстноеМеню" id="42"/>
+									<AutoCommandBar name="ВыбранныеЗаписиРегистраКоманднаяПанель" id="41"/>
+									<ExtendedTooltip name="ВыбранныеЗаписиРегистраРасширеннаяПодсказка" id="43"/>
+									<SearchStringAddition name="ВыбранныеЗаписиРегистраСтрокаПоиска" id="44">
+										<AdditionSource>
+											<Item>ВыбранныеЗаписиРегистра</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ВыбранныеЗаписиРегистраСтрокаПоискаКонтекстноеМеню" id="45"/>
+										<ExtendedTooltip name="ВыбранныеЗаписиРегистраСтрокаПоискаРасширеннаяПодсказка" id="46"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="ВыбранныеЗаписиРегистраСостояниеПросмотра" id="50">
+										<AdditionSource>
+											<Item>ВыбранныеЗаписиРегистра</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ВыбранныеЗаписиРегистраСостояниеПросмотраКонтекстноеМеню" id="51"/>
+										<ExtendedTooltip name="ВыбранныеЗаписиРегистраСостояниеПросмотраРасширеннаяПодсказка" id="52"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="ВыбранныеЗаписиРегистраУправлениеПоиском" id="47">
+										<AdditionSource>
+											<Item>ВыбранныеЗаписиРегистра</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="ВыбранныеЗаписиРегистраУправлениеПоискомКонтекстноеМеню" id="48"/>
+										<ExtendedTooltip name="ВыбранныеЗаписиРегистраУправлениеПоискомРасширеннаяПодсказка" id="49"/>
+									</SearchControlAddition>
+									<Events>
+										<Event name="BeforeAddRow">ВыбранныеЗаписиРегистраПередНачаломДобавления</Event>
+										<Event name="ChoiceProcessing">ВыбранныеЗаписиРегистраОбработкаВыбора</Event>
+									</Events>
+									<ChildItems>
+										<InputField name="ВыбранныеЗаписиРегистраЗначение" id="53">
+											<DataPath>ВыбранныеЗаписиРегистра.Value</DataPath>
+											<ContextMenu name="ВыбранныеЗаписиРегистраЗначениеКонтекстноеМеню" id="54"/>
+											<ExtendedTooltip name="ВыбранныеЗаписиРегистраЗначениеРасширеннаяПодсказка" id="55"/>
+											<Events>
+												<Event name="ChoiceProcessing">ВыбранныеЗаписиРегистраЗначениеОбработкаВыбора</Event>
+											</Events>
+										</InputField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</Page>
+						<Page name="ГруппаДвижения" id="56">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Движения</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ГруппаДвиженияРасширеннаяПодсказка" id="57"/>
+							<ChildItems>
+								<InputField name="Регистратор" id="58">
+									<DataPath>Регистратор</DataPath>
+									<ContextMenu name="РегистраторКонтекстноеМеню" id="59"/>
+									<ExtendedTooltip name="РегистраторРасширеннаяПодсказка" id="60"/>
+									<Events>
+										<Event name="StartChoice">РегистраторНачалоВыбора</Event>
+										<Event name="ChoiceProcessing">РегистраторОбработкаВыбора</Event>
+									</Events>
+								</InputField>
+							</ChildItems>
+						</Page>
+					</ChildItems>
+				</Pages>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаСкрипт" id="65">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скрипт</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<Representation>StrongSeparation</Representation>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+			<ExtendedTooltip name="ГруппаСкриптРасширеннаяПодсказка" id="66"/>
+			<ChildItems>
+				<Button name="СфмироватьСкриптСоздания" id="13" DisplayImportance="VeryHigh">
+					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
+					<CommandName>Form.Command.СфмироватьСкриптСоздания</CommandName>
+					<Picture>
+						<xr:Ref>StdPicture.ExternalDataSourceFunction</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<Shape>Usual</Shape>
+					<ShapeRepresentation>Always</ShapeRepresentation>
+					<ExtendedTooltip name="СфмироватьСкриптСозданияРасширеннаяПодсказка" id="14"/>
+				</Button>
+				<TextDocumentField name="Скрипт" id="10">
+					<DataPath>Скрипт</DataPath>
+					<ContextMenu name="СкриптКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="СкриптРасширеннаяПодсказка" id="12"/>
+				</TextDocumentField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ИмяИсточникаДанных" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Имя источника данных</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>ИмяИсточникаДанных</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ИсключатьНомерДату" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Исключать номер дату</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+			<Save>
+				<Field>ИсключатьНомерДату</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="Скрипт" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скрипт</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СсылкаНаОбъект" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ссылка на объект</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+			</Type>
+			<Save>
+				<Field>СсылкаНаОбъект</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="УникальныйИдентификаторСсылки" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уникальный идентификатор ссылки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТипОбъекта" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип объекта</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>ТипОбъекта</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="ВыбранныеЗаписиРегистра" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбранные записи регистра</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<Settings xsi:type="v8:TypeDescription"/>
+		</Attribute>
+		<Attribute name="Регистратор" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регистратор</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:TypeSet>cfg:DocumentRef</v8:TypeSet>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СфмироватьСкриптСоздания" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сформировать скрипт создания записей</v8:content>
+				</v8:item>
+			</Title>
+			<Action>СформироватьСкриптСоздания</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
+</Form>
